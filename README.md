@@ -4,7 +4,7 @@ Practicing using Spring Boot for Java Web App
 This small project is just me experimenting with Spring Boot Framework for Java
 The application will be a small student management system based off the customer example from spring.io
 						client
-Top level down hierarchy for web app    --> api layer --> get put post and delete methods
+Top level down hierarchy for web app    --> api layer --> [get put post delete] methods
 					--> server layer  --> logic for managing students
 					--> data access layer -->
 					--> database (postgres)
@@ -31,6 +31,6 @@ public List <Student> hello(){
 	at the new endpoint
 	
 9. Create StudentService class which now hosts method for returning student objects so the method that was used in StudentController is now used in StudentServices
-10. Dependcy Injection
+10. Dependcy Injection -- splitting layers of code into level hierarchy shown above. So far the layers created in code are the api layer, service layer, then data access layer
 	
 	
