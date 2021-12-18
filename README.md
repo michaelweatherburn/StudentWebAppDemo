@@ -4,6 +4,8 @@ Practicing using Spring Boot for Java Web App
 This small project is just me experimenting with Spring Boot Framework for Java
 The application will be a small student management system based off the customer example from spring.io
 						client
+
+
 Top level down hierarchy for web app    --> api layer --> [get put post delete] methods
 					--> server layer  --> logic for managing students
 					--> data access layer -->
