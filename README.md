@@ -39,3 +39,15 @@ public List <Student> hello(){
 10. Dependcy Injection -- splitting layers of code into level hierarchy shown above. So far the layers created in code are the api layer, service layer, then data access layer
 	
 	
+12-18
+Next is storing the student in the database and then retrieving that info
+	
+11. 
+	
+	
+	
+	
+	
+	
+	
+	
